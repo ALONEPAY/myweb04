@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* CSS:flex เป็นวิธีการหนึ่งที่ใช้จัดlayout */
+        /* คือการจัดวาง Element ของเว็ปเเนวนอนเเละ เเนวตั้ง */
+        #NeconZS{
+            background-color: lightblue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #NeconZS ul{
+            display: flex;
+            flex-direction: row; /* row คือเเนวนอน column คือเเนวตั้ง */
+            gap: 20px; /* ระยะห่างระหว่าง element */
+            justify-content: center; /* จัดกึ่งกลางในเเนวนอน */
+            /* justify-content: right; จัดชิดขวาในเเนวนอน */
+            /* justify-content: left; จัดชิดซ้ายในเเนวนอน */
+        }
+        #NeconZS ul li{
+            list-style: none;
+        }
+        #hi:hover{
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="NeconZS">
+      <ul>
+        <li id="hi">alo1</li>
+        <li>alo2</li>
+        <li>alo3</li>
+        <li>alo4</li>
+        <li>alo5</li>
+      </ul>
+    </div>
+  </body>
+</html>
